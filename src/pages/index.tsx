@@ -1,15 +1,14 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import Form from '../components/Form'
-import MyForm from '../components/MyForm'
+import TravelPlan from '../components/TravelPlan'
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <div>
-      <Form />
-      <MyForm />
+      <TravelPlan />
     </div>
     // <main
     //   className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
